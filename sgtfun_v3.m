@@ -1,6 +1,6 @@
 function [psi_vec,psi_vec_L]=sgtfun_v3(seq,k,label,n)
 
-numseq = label(1,aa2int(seq)); % Convert sequence to integer format
+numseq = label(1,aa2int(seq)); % reduced sequence in integer format
 
 % numseq=aa2int(seq);
 phi_mat=zeros(n,n);
